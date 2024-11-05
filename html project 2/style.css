@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: left;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #FF3C00;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-content {
+    max-width: 500px;
+    margin-left: 40px;
+}
+
+.profile-content h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.profile-content h1 span, .profile-content h2 span {
+    color: #FF3C00;
+}
+
+.profile-content h2 {
+    font-size: 1.8em;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.profile-content p {
+    color: #aaa;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #FF3C00;
+    font-size: 1.5em;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.hire-me {
+    background-color: transparent;
+    color: #FF3C00;
+    border: 2px solid #FF3C00;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hire-me:hover {
+    background-color: #FF3C00;
+    color: #000;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+
+.text-container {
+    margin-left: 20px;
+    max-width: 500px;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff6347;
+    position: relative;
+}
+
+.text-container h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #ff6347;
+    margin-top: 5px;
+}
+
+.text-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #e5533d;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    font-size: 50px;
+    background-color: transparent;
+    color: orangered;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.service {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+section.service img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+section.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
